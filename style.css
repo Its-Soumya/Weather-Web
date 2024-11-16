@@ -27,6 +27,7 @@ body{
    background: rgba(0, 0, 255, 0.2);
    color: #fff;
    margin: 100px auto 0;
+   margin-top: 50px;
    border-radius: 20px;
    padding: 40px 35px;
    text-align: center;
@@ -39,6 +40,29 @@ body{
 .card:hover{
    transform: scale(1.05);
    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+}
+
+.date-time {
+    font-family: 'Arial', sans-serif; 
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff; 
+    background: rgba(79, 172, 254, 0.8);
+    padding: 6px 16px;
+    border-radius: 6px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+    width: fit-content; 
+    margin: 10px auto; 
+    backdrop-filter: blur(4px);
+    transition: all 0.3s ease-in-out; 
+    position: relative;
+    transform: none;
+}
+
+.date-time:hover {
+    background: rgba(0, 242, 254, 0.8);
+    transform: none;
 }
 
 .search{
