@@ -172,23 +172,26 @@ body{
 
    /* Ensure the search section adapts to smaller screens */
    .search {
-      flex-direction: column; /* Stack the input and button */
-      align-items: center; /* Align items within the card */
+      display: flex; /* Ensure elements are laid out in a row */
+      flex-direction: row; /* Keep the input and button next to each other */
+      justify-content: space-between; /* Space out the input and button */
+      align-items: center; /* Vertically align elements in the center */
    }
 
    .search input {
-      margin-bottom: 10px; /* Add spacing between the input and button */
-      width: 100%; /* Ensure the input spans the card width */
+      width: 70%; /* Input takes up 70% of the container width */
+      margin-right: 10px; /* Add space between the input and button */
       font-size: 16px;
    }
 
    .search button {
-      width: 50px; /* Adjust button size for smaller screens */
-      height: 50px;
+      width: 50px; /* Set a fixed width for the button */
+      height: 50px; /* Keep the button height the same */
+      padding: 0; /* Remove padding to prevent the button from growing */
    }
 
    .search button img {
-      width: 20px; /* Scale down the search icon */
-      height: 20px;
+      width: 100%; /* Make the image take up the entire width of the button */
+      height: auto; /* Maintain the image's aspect ratio */
    }
 }
