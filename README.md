@@ -1,14 +1,14 @@
-## Weather-Web
+# Weather-Web
 
  Weather Web-application with real-time date.
 
-# Sample Output
+## Sample Output
 
 > Normal page
 
 ![Screenshot (374)](https://github.com/user-attachments/assets/7320960b-d5db-46ea-b36c-5ab0abfd1187)
 
-># Examples
+>## Examples
 
 > Weather of New Delhi
 
