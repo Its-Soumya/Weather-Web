@@ -177,16 +177,16 @@ body{
       justify-content: flex-start; /* Align the items from the start of the container */
       align-items: center; /* Vertically align elements in the center */
       width: 100%; /* Ensure the search container spans the entire width */
+      gap: 10px;
    }
 
    .search input {
-      width: 70%; /* Input takes up 70% of the container width */
-      margin-right: 10px; /* Add space between the input and button */
+      flex: 1 1 70%;
       font-size: 16px;
    }
 
    .search button {
-      width: 50px; /* Set a fixed width for the button */
+      flex: 0 1 30%;
       height: 50px; /* Keep the button height the same */
       padding: 0; /* Remove padding to prevent the button from growing */
       display: flex; /* Make the button a flex container */
