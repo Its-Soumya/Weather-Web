@@ -162,3 +162,33 @@ body{
    z-index: 2; 
    font-family: 'Poppins', sans-serif;
 }
+
+@media (max-width: 768px) {
+   /* Adjust the card size and padding */
+   .card {
+      padding: 20px 15px;
+      margin-top: 20px;
+   }
+
+   /* Ensure the search section adapts to smaller screens */
+   .search {
+      flex-direction: column; /* Stack the input and button */
+      align-items: stretch; /* Align items within the card */
+   }
+
+   .search input {
+      margin-bottom: 10px; /* Add spacing between the input and button */
+      width: 100%; /* Ensure the input spans the card width */
+      font-size: 16px;
+   }
+
+   .search button {
+      width: 50px; /* Adjust button size for smaller screens */
+      height: 50px;
+   }
+
+   .search button img {
+      width: 20px; /* Scale down the search icon */
+      height: 20px;
+   }
+}
