@@ -173,7 +173,7 @@ body{
    /* Ensure the search section adapts to smaller screens */
    .search {
       flex-direction: column; /* Stack the input and button */
-      align-items: stretch; /* Align items within the card */
+      align-items: center; /* Align items within the card */
    }
 
    .search input {
